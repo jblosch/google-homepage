@@ -1,0 +1,167 @@
+html, body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+
+#container {
+   height: 100%;
+   min-height: 100%;
+   position: relative;
+} 
+
+#header ul {
+   list-style: none;
+   display: inline;
+   float: right;
+   margin-top: 10px;
+   margin-right: 20px;
+}
+
+#header li {
+   font-family: arial, sans-serif;
+   font-size: 13px; 
+   display: inline-block;
+   vertical-align: middle;
+   padding-left: 10px;
+}
+
+li a {color: black; text-decoration: none;}
+li a:hover {text-decoration: underline;}
+
+button {
+   background-color: #eeeeee;
+   border: 1px solid rgb(198, 198, 198);
+   font-size: 11px;
+   font-weight: bold;
+   font-style: arial, sans-serif;
+   text-decoration: none;
+   height: 29px;
+   margin: 0 0 0 10px;
+}
+
+button:hover {
+   box-shadow: 0px 1px 1px #cccccc;
+}
+
+#app {
+   background-image: url('http://ssl.gstatic.com/gb/images/v1_b444d4f7.png');
+   background-position: -68px -400px;
+   background-size: 112px 1828px;
+   opacity: 0.55;
+   display: inline-block;
+   height: 30px;
+   width: 30px;
+}
+
+#app:hover {opacity: 1;}
+
+
+#bell {
+   background-image: url('http://ssl.gstatic.com/gb/images/v1_b444d4f7.png');
+   background-position: 3px -715px;
+   background-size: 112px 1828px;
+   opacity: 0.55;
+   display: inline-block;
+   height: 30px;
+   width: 30px;
+}
+
+#bell:hover {opacity: 1;}
+
+#share {
+   padding: 5px;
+   background-color: #eeeeee;
+   cursor: default;
+}
+
+#share:hover {background-color: #dddddd;}
+
+#profile {
+   background-image: url('http://lh5.googleusercontent.com/-8obNSAGPoDE/AAAAAAAAAAI/AAAAAAAAAAA/hyvjX_KJet0/s32-c/photo.jpg');
+   height: 32px;
+   width: 32px;
+   display: inline-block;
+   border-radius: 100%;
+}
+
+#body {
+
+   padding-bottom: 40px;
+}
+
+#logo {
+   display: block;
+   margin: auto;
+   height: 95px;
+   width: 269px;
+   padding: 112px 0 22px 0;
+   clear: both;
+}
+
+#search {
+   border: 1px solid #dddddd;
+   display: block;
+   margin: auto;
+   height: 28px;
+   width: 532px;
+   padding: 0 30px 0 10px;
+   position: relative;
+}
+
+#search:hover {
+   border: 1px solid #aaaaaa;
+}
+
+#search:focus {
+   border: 1px solid blue;
+}
+
+#button-wrap {
+   margin-left: auto;
+   margin-right: auto;
+   width: 260px;
+   padding-top: 15px;
+}
+
+#footer {
+   position: absolute;
+   bottom: 0;
+   display: inline-block;
+   height: 40px;
+   width: 100%;
+   border-top: 1px solid rgb(228, 228, 228);
+   background-color: rgb(242, 242, 242);
+}
+
+#footer ul {
+   list-style: none;
+   display: inline;
+
+}
+
+#footer li {
+   font-family: arial, sans-serif;
+   font-size: 13px; 
+   display: inline-block;
+   vertical-align: middle;
+   margin-left: 20px;
+}
+
+#footer li a:hover {
+   text-decoration: underline;
+}
+
+#left-foot {
+   float: left;
+   padding: 10px 0 0 25px;
+}
+
+#right-foot {
+   float: right;
+   padding: 10px 25px 0 0;
+}
+
+#highlight {
+   color: red;
+}
