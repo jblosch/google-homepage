@@ -40,9 +40,7 @@ button {
    margin: 0 0 0 10px;
 }
 
-button:hover {
-   box-shadow: 0px 1px 1px #cccccc;
-}
+button:hover { box-shadow: 0px 1px 1px #cccccc; }
 
 #app {
    background-image: url('http://ssl.gstatic.com/gb/images/v1_b444d4f7.png');
@@ -54,8 +52,7 @@ button:hover {
    width: 30px;
 }
 
-#app:hover {opacity: 1;}
-
+#app:hover, #bell:hover {opacity: 1;}
 
 #bell {
    background-image: url('http://ssl.gstatic.com/gb/images/v1_b444d4f7.png');
@@ -67,15 +64,13 @@ button:hover {
    width: 30px;
 }
 
-#bell:hover {opacity: 1;}
-
 #share {
    padding: 5px;
    background-color: #eeeeee;
    cursor: default;
 }
 
-#share:hover {background-color: #dddddd;}
+#share:hover { background-color: #dddddd; }
 
 #profile {
    background-image: url('http://lh5.googleusercontent.com/-8obNSAGPoDE/AAAAAAAAAAI/AAAAAAAAAAA/hyvjX_KJet0/s32-c/photo.jpg');
@@ -85,10 +80,7 @@ button:hover {
    border-radius: 100%;
 }
 
-#body {
-
-   padding-bottom: 40px;
-}
+#body { padding-bottom: 40px; }
 
 #logo {
    display: block;
@@ -109,13 +101,9 @@ button:hover {
    position: relative;
 }
 
-#search:hover {
-   border: 1px solid #aaaaaa;
-}
+#search:hover { border: 1px solid #aaaaaa; }
 
-#search:focus {
-   border: 1px solid blue;
-}
+#search:focus { border: 1px solid blue; }
 
 #button-wrap {
    margin-left: auto;
@@ -137,7 +125,6 @@ button:hover {
 #footer ul {
    list-style: none;
    display: inline;
-
 }
 
 #footer li {
@@ -146,10 +133,6 @@ button:hover {
    display: inline-block;
    vertical-align: middle;
    margin-left: 20px;
-}
-
-#footer li a:hover {
-   text-decoration: underline;
 }
 
 #left-foot {
@@ -162,6 +145,4 @@ button:hover {
    padding: 10px 25px 0 0;
 }
 
-#highlight {
-   color: red;
-}
+#highlight { color: red; }
